@@ -1,0 +1,24 @@
+{
+  "name": "guidjs",
+  "version": "1.0.0",
+  "description": "wygeneruj sobie guida",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "guid"
+  ],
+  "author": "ssaku",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "@types/uuid": "^8.3.1",
+    "fs": "^0.0.1-security",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
